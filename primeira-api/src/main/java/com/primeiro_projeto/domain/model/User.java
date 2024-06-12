@@ -21,7 +21,7 @@ public class User {
 	private String name;
 	
 	@OneToOne(cascade = CascadeType.ALL)
-	private Account acconunt;
+	private Account account;
 	
 	@OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
 	private List<Feature> features;
@@ -40,9 +40,9 @@ public class User {
 	
 	public void setName(String name) {this.name = name;}
 	
-	public Account getAcconunt() {return acconunt;}
+	public Account getAccount() {return account;}
 	
-	public void setAcconunt(Account acconunt) {this.acconunt = acconunt;}
+	public void setAccount(Account account) {this.account = account;}
 	
 	public List<Feature> getFeatures() {return features;}
 	
