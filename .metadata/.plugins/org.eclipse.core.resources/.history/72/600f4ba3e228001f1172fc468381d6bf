@@ -1,0 +1,20 @@
+Spring:
+	datasource:
+		url: jdbc:h2:nem:papi2024
+		username: papi2024
+		password:
+	jpa:
+		show-sql: true
+		opne-in-view: false
+		hibernate:
+			ddl-auto: create # validate / update / create / create-drop 
+		properties:
+			hibernate:
+				format_sql: true
+	h2:
+		console:
+			enabled: true
+			path: /h2-console
+			settings:
+				trace: false
+				web-allow-others: false
