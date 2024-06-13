@@ -1,5 +1,0 @@
-package com.primeiro_projeto.domain.repository;
-
-public interface UserRepository {
-
-}
