@@ -1,8 +1,8 @@
-package com.primeiro_projeto.service.impl;
+package com.primeiro_projeto.domain.service.impl;
 
 import com.primeiro_projeto.domain.model.User;
+import com.primeiro_projeto.domain.service.UserService;
 import com.primeiro_projeto.domain.repository.UserRepository;
-import com.primeiro_projeto.service.UserService;
 import org.springframework.stereotype.Service;
 
 import java.util.NoSuchElementException;

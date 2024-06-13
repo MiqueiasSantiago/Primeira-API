@@ -1,4 +1,4 @@
-package com.primeiro_projeto.service;
+package com.primeiro_projeto.domain.service;
 
 import com.primeiro_projeto.domain.model.User;
 
